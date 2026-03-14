@@ -1,0 +1,39 @@
+# ── Données (trop volumineuses pour GitHub) ───────────────────────
+data/fer2013.csv
+data/*.csv
+
+# ── Modèle entraîné ───────────────────────────────────────────────
+models/
+*.keras
+*.h5
+
+# ── Résultats générés ─────────────────────────────────────────────
+results/
+*.png
+*.jpg
+*.json
+
+# ── Environnement Python ──────────────────────────────────────────
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Fichiers système ──────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# ── Clés API (NE JAMAIS COMMITTER) ───────────────────────────────
+.env
+*.env
+secrets.py
+api_key.txt
